@@ -19,8 +19,8 @@ namespace UnitTest1
 		TEST_METHOD(TestMethod2)
 		{
 			Cal c;
-			int array[5] = { -1,-2,-3,-4,-5 };
-			Assert::AreEqual(0, c.MaxSum(5, array));
+			int array[5] = { -1, 2, -1, 0, -2};
+			Assert::AreEqual(2, c.MaxSum(5, array));
 		}
 		TEST_METHOD(TestMethod3)
 		{
